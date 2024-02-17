@@ -34,7 +34,7 @@ export default function Search() {
     <section className="section featured-car" id="featured-car">
       <div className="container">
         <div className="title-wrapper">
-          <h2 className="h2 section-title">Featured cars</h2>
+          <h2 className="h2 section-title">Search cars</h2>
           <a href="#" className="featured-car-link">
             <span>View more</span>
             <FaArrowRight color="hsl(204, 91%, 53%)" size={"22"} />
