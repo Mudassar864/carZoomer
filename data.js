@@ -1,0 +1,81 @@
+import car1 from "./src/assets/images/car-1.jpg";
+import car2 from "./src/assets/images/car-2.jpg";
+import car3 from "./src/assets/images/car-3.jpg";
+import car4 from "./src/assets/images/car-4.jpg";
+import car5 from "./src/assets/images/car-5.jpg";
+import car6 from "./src/assets/images/car-6.jpg";
+
+export const featuredCars = [
+    {
+      id: 1,
+      name: "Toyota RAV4",
+      image: car1,
+      year: 2021,
+      people: 4,
+      fuelType: "Hybrid",
+      mileage: "6.1km / 1-litre",
+      transmission: "Automatic",
+      price: 440,
+      isFav: false,
+    },
+    {
+      id: 2,
+      name: "BMW 3 Series",
+      image: car2,
+      year: 2019,
+      people: 4,
+      fuelType: "Gasoline",
+      mileage: "8.2km / 1-litre",
+      transmission: "Automatic",
+      price: 350,
+      isFav: false,
+    },
+    {
+      id: 3,
+      name: "Volkswagen T-Cross",
+      image: car3,
+      year: 2020,
+      people: 4,
+      fuelType: "Gasoline",
+      mileage: "5.3km / 1-litre",
+      transmission: "Automatic",
+      price: 400,
+      isFav: false,
+    },
+    {
+      id: 4,
+      name: "Cadillac Escalade",
+      image: car4,
+      year: 2020,
+      people: 4,
+      fuelType: "Gasoline",
+      mileage: "7.7km / 1-litre",
+      transmission: "Automatic",
+      price: 620,
+      isFav: false,
+    },
+    {
+      id: 5,
+      name: "BMW 4 Series GTI",
+      image: car5,
+      year: 2021,
+      people: 4,
+      fuelType: "Gasoline",
+      mileage: "7.6km / 1-litre",
+      transmission: "Automatic",
+      price: 530,
+      isFav: false,
+    },
+    {
+      id: 6,
+      name: "BMW 4 Series",
+      image: car6,
+      year: 2019,
+      people: 4,
+      fuelType: "Gasoline",
+      mileage: "7.2km / 1-litre",
+      transmission: "Automatic",
+      price: 490,
+      isFav: false,
+    },
+  ];
