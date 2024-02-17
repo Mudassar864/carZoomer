@@ -36,7 +36,7 @@ export default function Favourite() {
         <div className="title-wrapper">
           <h2 className="h2 section-title">Favourite cars</h2>
         </div>
-        {cars.length > 0 ? (
+        {cars?.length > 0 ? (
           <ul className="featured-car-list">
             {cars
               .filter((car) => car.isFav)
